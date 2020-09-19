@@ -18,7 +18,7 @@ font-family:sans-serif;
 
 nav#menu {
   margin-top: 50px;
-  background:  #db4dff;
+  background: #db4dff;
   text-align: center;
   height: 50px;
   width: 100%;
@@ -26,7 +26,7 @@ nav#menu {
 
 nav#menu ul {
   padding: 0;
-  background:  #b3ffe6;
+  background: #db4dff;
   margin: 0 auto;
   display: inline-block;
   height: 50px;
@@ -48,7 +48,7 @@ nav#menu ul li:nth-child(1) {
 }
 
 nav#menu ul li.active {
-  background: #2980b9;
+  background: #db4dff;
 }
 
 nav#menu ul li a {
