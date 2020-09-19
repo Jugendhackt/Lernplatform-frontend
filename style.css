@@ -1,4 +1,9 @@
+@font-face { font-family: 'font1';
+src: url('ArchitectsDaughter-Regular.ttf')  format('woff2')}
+
+
 body{background-color:#C2F6C8;}
-#title{font-size:60px;color: #A11C23;font-style: italic;}
+#title{font-size:40px;color: #A11C23;text-align:center;font-family:font1;}
+#text{font-size:30px;}
 
 
