@@ -2,6 +2,31 @@
 	src: url('ArchitectsDaughter-Regular.ttf')  format('woff2')}
 
 
+.fab-upload-file {
+	width: 70px;
+	height: 70px;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+	cursor: pointer;
+	align-items: center;
+	border-radius: 100%;
+	justify-content: center;
+	background-color: #ecf0f1;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.upload-icon{width:10px;height:10px;position:relative;color:#2c3e50;background-color:currentColor;}
+.upload-icon:before,.upload-icon:after{content:"";display:block;position:absolute;}
+.upload-icon:before{bottom:100%;margin-left:-7.5px;border-bottom:12px solid currentColor;border-left:12px solid transparent;border-right:12px solid transparent;}
+.upload-icon:after{top:100%;left:-95%;width:300%;height:2px;margin-top:5px;position:absolute;background-color:currentColor;}
+
+
+
+
 body {
 background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&w=1000&q=80");
 text-align: center;
