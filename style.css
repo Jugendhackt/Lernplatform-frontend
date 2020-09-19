@@ -6,7 +6,7 @@
 	width: 70px;
 	height: 70px;
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
 	cursor: pointer;
@@ -24,8 +24,10 @@
 .upload-icon:before{bottom:100%;margin-left:-7.5px;border-bottom:12px solid currentColor;border-left:12px solid transparent;border-right:12px solid transparent;}
 .upload-icon:after{top:100%;left:-95%;width:300%;height:2px;margin-top:5px;position:absolute;background-color:currentColor;}
 
-#upload{opacity: 0;
-		
+#upload{
+  opacity: 0;
+  width: 10px;
+  height: 10px;
 }
 
 
@@ -38,7 +40,6 @@ background-repeat:no-repeat;
 background-size:cover;
 color: #ff3385;
 font-family:sans-serif;
-width:100vw;
 }
 
 .video{ width:727px; height:409px; }
