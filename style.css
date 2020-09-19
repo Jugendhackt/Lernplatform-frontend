@@ -24,6 +24,11 @@
 .upload-icon:before{bottom:100%;margin-left:-7.5px;border-bottom:12px solid currentColor;border-left:12px solid transparent;border-right:12px solid transparent;}
 .upload-icon:after{top:100%;left:-95%;width:300%;height:2px;margin-top:5px;position:absolute;background-color:currentColor;}
 
+#upload{-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+}
+
 
 
 
