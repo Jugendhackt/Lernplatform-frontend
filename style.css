@@ -19,7 +19,7 @@
 	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
-.upload-icon{width:10px;height:10px;position:relative;color:#2c3e50;background-color:currentColor;overflow-y:hidden;}
+.upload-icon{width:10px;height:10px;position:relative;color:#2c3e50;background-color:currentColor;}
 .upload-icon:before,.upload-icon:after{content:"";display:block;position:absolute;}
 .upload-icon:before{bottom:100%;margin-left:-7.5px;border-bottom:12px solid currentColor;border-left:12px solid transparent;border-right:12px solid transparent;}
 .upload-icon:after{top:100%;left:-95%;width:300%;height:2px;margin-top:5px;position:absolute;background-color:currentColor;}
@@ -38,6 +38,7 @@ background-repeat:no-repeat;
 background-size:cover;
 color: #ff3385;
 font-family:sans-serif;
+width:100vw;
 }
 
 .video{ width:727px; height:409px; }
