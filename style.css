@@ -2,7 +2,13 @@
 	src: url('ArchitectsDaughter-Regular.ttf')  format('woff2')}
 
 
-body{background-color:#B3999A;}
+body {
+background: #b3d1ff;
+text-align: center;
+color: #ff3385;
+font-family:sans-serif;
+}
+
 #title{font-size:35px;color: #A11C23;text-align:center;font-family:font1;}
 #text{font-size:30px;}
 
