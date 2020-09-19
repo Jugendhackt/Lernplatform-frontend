@@ -16,73 +16,67 @@ font-family:sans-serif;
 #title{font-size:35px;color: #A11C23;text-align:center;font-family:font1;}
 #text{font-size:30px;}
 
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
+nav#menu {
+  margin-top: 50px;
+  background:  #db4dff;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  height: 50px;
+  width: 100%;
 }
 
-/* The dropdown container */
-.dropdown {
+nav#menu ul {
+  padding: 0;
+  background:  #b3ffe6;
+  margin: 0 auto;
+  display: inline-block;
+  height: 50px;
+}
+
+nav#menu ul li {
   float: left;
-  overflow: hidden;
+  padding: 0 20px;
+  background: #db4dff;
+  list-style: none;
+  margin-right: 5px;
+  line-height: 50px;
+  height: 50px;
+   transition: margin 0.1s ease-in-out;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
+nav#menu ul li:nth-child(1) {
+  margin-left: 5px;
+}
+
+nav#menu ul li.active {
+  background: #2980b9;
+}
+
+nav#menu ul li a {
   color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
   text-decoration: none;
-  display: block;
-  text-align: left;
+  font-size: 1.3em;
 }
 
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
+nav#menu h1#sitename {
+  font-size: 1.2em;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  left: 0.5em;
+  color: white;
+  opacity: 0;
+   transition: opacity 0.1s ease-in-out;
+}
+nav#menu.scrolled {
+  margin: 0;
+  position: fixed;
+  top: 0;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+nav#menu.scrolled ul li {
+  margin: 0;
 }
 
+nav#menu.scrolled h1#sitename {
+  opacity: 1;
+}
